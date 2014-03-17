@@ -33,7 +33,7 @@ The Mayor's staff wants to put a simple dashboard on the City web site with buil
 
 - The permit data system only contains addresses in raw text, but to map it it needs latitude and longitudes. The GIS team writes a script that every morning takes `permits.csv` and adds latitude and longitude columns based on the address text. (**transform**)
 
-- The City has an open data portal that can generate a web map for any data set on it containing latitude and longitude. Staff write a script that uploads `permits-with-latitude-and-longitude.csv` to the open data portal every afternoon, and embed the auto-generated web map into the city's web site.
+- The City has an open data portal that can generate a web map for any data set on it containing latitude and longitude. Staff write a script that uploads `permits-with-latitude-and-longitude.csv` to the open data portal every afternoon, and embed the auto-generated web map into the city's web site. (**load**)
 
 I've explained ETL in the above way plenty of times, and the thing is, almost everyone I talk to finds it easy to understand. They just hadn't thought about it too much.
 
