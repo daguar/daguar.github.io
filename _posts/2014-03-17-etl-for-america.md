@@ -69,7 +69,7 @@ Because it's a generic (not just government) problem, there's also plenty of oth
 
 - **Collaborate for God's sake!**: _EVERY_ organization dealing with data is dealing with these problems. And governments need to work together on this. This is where open source presents invaluable _process_ lessons for government: working collaboratively, and in the open, can float all boats _much_ higher than they currently are.
 
-Whether it's putting your scripts on GitHub, asking and answering questions on the [Open Data StackExchange](http://opendata.stackexchange.com/), or helping out others on [the Socrata support forums](http://support.socrata.com/forums) a way to change government.
+Whether it's putting your scripts on GitHub, asking and answering questions on the [Open Data StackExchange](http://opendata.stackexchange.com/), or helping out others on [the Socrata support forums](http://support.socrata.com/forums), collaboration is a key lever for this government technology problem.
 
 ### **Wanted: government data plumbers**
 
@@ -77,7 +77,7 @@ In a forthcoming post, I hope to document some of the concrete experiences and l
 
 But I'm also writing this blog post -- perhaps a bit audaciously -- as a call to arms: all of us doing data work inside government need to start writing more publicly about our processes, hacks, and tools, and collaborating across boundaries.
 
-From pure policy wonks who know just enough VBA to get stuff done to the Unix geeks piping whose `awk` knowledge strikes fear into the hearts of most sysadmins, we need to communicate more, and more publicly.
+From pure policy wonks who know just enough VBA to get stuff done to the Unix geeks whose `awk` knowledge strikes fear into the hearts of most sysadmins, we need to communicate more, and more publicly.
 
 I've coded for America. It was hard, hard work, but incredibly fulfilling. So to my fellow plumbers I say: let's ETL for America.
 
