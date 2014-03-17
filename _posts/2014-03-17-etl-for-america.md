@@ -15,9 +15,9 @@ But this "experience problem" is really only one piece of the civic tech puzzle.
 
 ### **Data integration: a whole other can of worms**
 
-Many of the problems government confronts with technology are fundamentally about **data integration**: taking the disparate data sets living in a variety of locations and formats (SQL Server databases, exports from ancient ERP systems, Excel speadsheets on people's desktops) and getting them into a shape where they're actually _usable_.
+Many of the problems government confronts with technology are fundamentally about **data integration**: taking the disparate data sets living in a variety of locations and formats (SQL Server databases, exports from ancient ERP systems, Excel speadsheets on people's desktops) and getting them into a place and shape where they're actually _usable_.
 
-Among backend engineers, these are generically referred to as **ETL** problems, or **extract-transform-load** operation. The notion is that integrating data involves three distinct steps:
+Among backend engineers, these are generically referred to as **ETL** problems, or **extract-transform-load** operations. The notion is that integrating data involves three distinct steps:
 
 1. **Extract**: getting data _out of_ some system where it is stored, and where updates are made
 
