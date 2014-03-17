@@ -39,7 +39,7 @@ I've explained ETL in the above way plenty of times, and the thing is, almost ev
 
 And one of the foibles here is that many government staff -- particularly those at the high level -- lack the basic technical language to be able to understand the structure of the ETL problem and find and evaluate the resources out there.
 
-The fact that I can go months hearing about "open data" without a single mention of ETL is a problem. ETL is ; it's _how_ you open data.
+The fact that I can go months hearing about "open data" without a single mention of ETL is a problem. ETL is the pipes of your house: it's _how_ you open data.
 
 ### **ETL: a hard ^#&@ing problem**
 
