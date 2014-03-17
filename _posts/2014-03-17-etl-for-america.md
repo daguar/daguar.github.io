@@ -13,7 +13,7 @@ And that _should be_ a core concern: bringing human-centered design and user exp
 
 But this "experience problem" is really only one piece of the civic tech puzzle.
 
-### **Data integration: a whole other can of worms"**
+### **Data integration: a whole other can of worms**
 
 Many of the problems government confronts with technology are fundamentally about **data integration**: taking the disparate data sets living in a variety of locations and formats (SQL Server databases, exports from ancient ERP systems, Excel speadsheets on people's desktops) and getting them into a shape where they're actually _usable_.
 
