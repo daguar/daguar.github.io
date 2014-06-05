@@ -126,7 +126,7 @@ Now, when we run `python py_interactive_breakpoint.py`, we'll be dropped to an i
 
 By playing around in the REPL — most simply by typing `geodata_dict` and seeing what it looks like — we figure out that `geodata_dict['features']` is an array of the bars, and  that GeoJSON stores the non-geographic attributes in a `properties` dictionary.
 
-So we realize can access the name of the first bar by doing `geodata_dict['features'][0]['properties']['name']` and this opens the door to a nifty `for` loop to print out those names.
+So we realize we can access the name of the first bar by doing `geodata_dict['features'][0]['properties']['name']` and this opens the door to a nifty `for` loop to print out those names.
 
 We can even write try writing that for loop in the REPL first, and if it works, we can then migrate it over to our file.
 
