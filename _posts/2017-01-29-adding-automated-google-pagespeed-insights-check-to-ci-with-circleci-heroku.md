@@ -10,12 +10,11 @@ We want to make sure using GetCalFresh to apply for food assistance is the best 
 
 One tool in our belt for measuring GCF's web performance is [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a free tool from Google that analyzes a web site and checks it for common performance issues, generating both a score and a list of suggested improvements:
 
-
-Pic: /Users/daveguarino/Pictures/Screenshots/google-psi-screenshot.png 
+<img src="{{ site.url }}/assets/google-psi-screenshot.png" width=100%>
 
 We have a 71 — that's okay, not great. We should improve that. Then again, we're trying to enroll 2.5 million more Californians in the SNAP program, which — turns out — is a lot of work. So mayyyybe it's not the top priority to do a bunch of work to bump our PSI score.
 
-BUT a useful thing we _can_ do now [1] is making sure we don't accidentally make our PSI go _down_ with other changes we're making.
+BUT a useful thing we _can_ do now <a href="#footnote1">[1]</a> is making sure we don't accidentally make our PSI go _down_ with other changes we're making.
 
 If you read this and in your head said SOUNDS LIKE A TASK FOR CONTINUOUS INTEGRATION, we're of like mind.
 
@@ -147,11 +146,11 @@ You'll note my `curl` in there — I found that it was helpful to send a request
 
 Okay! Now we're ready to make our app worse intentionally and see what happens! I added a commit that will sleep for 5 seconds before responding to a request to the front page. THAT OUGHTTA DO IT.
 
-<img width="1144" alt="screen shot 2017-01-28 at 3 34 32 pm" src="https://cloud.githubusercontent.com/assets/994938/22408830/d25ff3d6-e634-11e6-921c-041f96ba3cd4.png">
+<img src="{{ site.url }}/assets/circle-psi-fail.png" width=100%>
 
 Yeeeep — CI is _not_ stoked. And on GitHub we'll see that CI failed and go yell at whoever did that thing.
 
-(Aside: This is a joke, un chiste, una broma. Having [a psychologically safe, just culture](https://codeascraft.com/2012/05/22/blameless-postmortems/) where we understand the context of someone's mistake that gave them the false confidence in their approach — and then you make a change in that context, like automating test running! — is how you actually fix problems like this.)
+(Aside: This is a joke. Having [a psychologically safe, just culture](https://codeascraft.com/2012/05/22/blameless-postmortems/) where we understand the context of someone's mistake which gave them the false confidence in their approach — and then you make a change in that context, like automating your test runner! — is how you actually fix problems like this.)
 
 ### That's it! Go home!
 
@@ -165,4 +164,4 @@ But the bottom line is if you automate your feedback loops, you are more effecti
 
 Oh, and if this kind of development philosophy appeals to you, [we are hiring](http://www.codeforamerica.org/jobs) engineers and other roles for both the GetCalFresh project and other excellent ones at Code for America.
 
-[1] ...especially given that I'm writing this on a weekend and this is more fun exploration than an exercise in strict prioritization...
+<a name="footnote1">[1] ...especially given that I'm writing this on a weekend and this is more fun exploration than an exercise in strict prioritization...</a>
