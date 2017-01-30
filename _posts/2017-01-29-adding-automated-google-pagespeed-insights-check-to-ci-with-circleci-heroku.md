@@ -1,5 +1,7 @@
-
-## Adding an automated Google PageSpeed Insights check to continuous integration with CircleCI, Heroku, and GitHub
+---
+layout: post
+title: Adding an automated Google PageSpeed Insights check to continuous integration with CircleCI and Heroku
+---
 
 
 Building [GetCalFresh](https://www.getcalfresh.org/about), we think a lot about web performance (how fast pages load on different devices). Because our user base is low-income Californians, many of whom are using low-end Android devices.
