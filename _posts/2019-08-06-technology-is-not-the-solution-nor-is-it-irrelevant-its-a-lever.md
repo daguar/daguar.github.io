@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technology is not the solution, nor is it irrelevant — it's a lever"
+title: "Technology is not the solution (nor is it irrelevant) — it's a lever"
 ---
 
 I find I often hear two equally counterproductive arguments about technology's role in complex social problems.
