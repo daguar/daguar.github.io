@@ -1,5 +1,7 @@
+plugins: [jekyll-paginate]
+
 # Dependencies
-markdown:         redcarpet
+markdown:        kramdown
 
 # Permalinks
 permalink:        pretty
@@ -7,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Dave Guarino
 tagline:          'on technology, government, and change'
-description:      'A place to think out loud about the less visible aspects of change.<br><br>Code for America <a href="http://www.codeforamerica.org/people/dave-guarino/">alumnus</a> (2013),<br>Code monkey,<br>Data wonk.'
+description:      'A place to think out loud about the less visible aspects of change.<br><br>Code for America <a href="http://www.codeforamerica.org/people/dave-guarino/">alumnus</a>,<br>Code monkey,<br>Data wonk.'
 url:              http://daguar.github.io
 
 author:
