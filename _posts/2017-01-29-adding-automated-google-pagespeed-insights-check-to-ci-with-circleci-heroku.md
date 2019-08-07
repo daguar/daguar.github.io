@@ -10,7 +10,7 @@ We want to make sure using GetCalFresh to apply for food assistance is the best 
 
 One tool in our belt for measuring GCF's web performance is [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a free tool from Google that analyzes a web site and checks it for common performance issues, generating both a score and a list of suggested improvements:
 
-<img src="{{ site.url }}/assets/google-psi-screenshot.png" width=100%>
+<img src="{{ site.url }}/assets/google-psi-screenshot.png" width="100%">
 
 We have a 71 — that's okay, not great. We should improve that. Then again, we're trying to enroll 2.5 million more Californians in the SNAP program, which — turns out — is a lot of work. So mayyyybe it's not the top priority to do a bunch of work to bump our PSI score.
 
@@ -146,7 +146,7 @@ You'll note my `curl` in there — I found that it was helpful to send a request
 
 Okay! Now we're ready to make our app worse intentionally and see what happens! I added a commit that will sleep for 5 seconds before responding to a request to the front page. THAT OUGHTTA DO IT.
 
-<img src="{{ site.url }}/assets/circle-psi-fail.png" width=100%>
+<img src="{{ site.url }}/assets/circle-psi-fail.png" width="100%">
 
 Yeeeep — CI is _not_ stoked. And on GitHub we'll see that CI failed and go yell at whoever did that thing.
 
